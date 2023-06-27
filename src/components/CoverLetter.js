@@ -27,9 +27,11 @@ function CoverLetter({ inserts, reviewed}) {
 
                 <p>All the best,</p>
 
-                <p>Jeff Thomassen</p>
-                <p>jeffkthomassen@gmail.com</p>
-                <p>303-947-6182</p>
+                <p>Jeff Thomassen
+                <br></br>
+                jeffkthomassen@gmail.com
+                <br></br>
+                303-947-6182</p>
             </div>
 
             <button onClick={handleClick}>Copy to Clipboard</button>

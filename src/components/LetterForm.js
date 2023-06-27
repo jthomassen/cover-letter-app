@@ -30,8 +30,8 @@ function LetterForm({ addCoverLetterInserts, setSubmitted }) {
     
 
     return (
-        <div>
-            <form onSubmit={handleSubmit}>
+        <div className="form-box">
+            <form onSubmit={handleSubmit} className="form">
                 <input type="text" value={name} onChange={(e) => setName(e.target.value)}></input>
                 <label>Name of Business</label>
                 <br></br>
